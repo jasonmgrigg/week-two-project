@@ -44,8 +44,9 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
+
 
 .nav-bar {
   margin: auto;
@@ -114,18 +115,55 @@ a {
 
 /*First Section*/
 
-.page-header {
-  background-color: gray;
+.header-content {
+  background-color: white;
   margin: auto;
-  height: 40vw;
+  height: 25vw;
   width: 71vw;
   list-style: none;
   text-decoration: none;
 }
 
+.main-heading {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3vw;
+  font-weight: lighter;
+  padding-left: 1.7vw;
+  padding-top: 1.7vw;
+  padding-bottom: 1vw;
+}
+
+.picture-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.slide-img {
+  width: 20vw;
+}
+
+.entry-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2.3vw;
+  font-weight: lighter;
+  background-color: #0B1942;
+  margin: auto;
+  color: #FFFFFF;
+  padding-left: 1vw;
+  padding-top: .3vw;
+  padding-bottom: .3vw;
+}
+
+.slide-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3vw;
+  padding-top: 1vw;
+}
+
 /*Second Section*/
 
-.page-header2 {
+.header2-content {
   background-color: #0B1942;
   margin: auto;
   height: 24vw;
@@ -133,6 +171,7 @@ a {
   list-style: none;
   text-decoration: none;
 }
+
 
 
 /*Footer*/
