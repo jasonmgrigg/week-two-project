@@ -44,6 +44,7 @@ body {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .nav-bar {
@@ -63,14 +64,85 @@ a {
   background-color: #F5005B;
   background-size: 85%;
   background-repeat: no-repeat;
-  width: 7vw;
   height: 8vw;
-}
-
-
+  width: 7vw;
+  }
 
 .page-header {
   background-color: white;
   margin: auto;
   width: 71vw;
+}
+
+
+/*Below for Nav Bar and Footer*/
+
+.nav-item1 {
+  height: 8vw;
+  width: 7vw;
+  background-color: #00A5BF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item2 {
+  height: 8vw;
+  width: 7vw;
+  background-color: #00B7D3;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item3 {
+  height: 8vw;
+  width: 7vw;
+  background-color: #00D5E7;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*First Section*/
+
+.page-header {
+  background-color: gray;
+  margin: auto;
+  height: 40vw;
+  width: 71vw;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*Second Section*/
+
+.page-header2 {
+  background-color: #0B1942;
+  margin: auto;
+  height: 24vw;
+  width: 71vw;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/*Footer*/
+
+.nav-bar p {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3vw;
+  color: white;
+  padding-right: 1.5vw;
 }
