@@ -38,10 +38,39 @@ copyright text: #FFFFFF
 Colors*/
 
 
-.body {
+body {
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-bar {
+  margin: auto;
+  height: 8vw;
+  width: 71vw;
   background-color: #7DDFE8;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-container {
+  background: url('../images/filmclub.png');
+  background-position: center;
+  background-color: #F5005B;
+  background-size: 85%;
+  background-repeat: no-repeat;
+  width: 7vw;
+  height: 8vw;
+}
+
+
+
+.page-header {
+  background-color: white;
+  margin: auto;
+  width: 71vw;
 }
