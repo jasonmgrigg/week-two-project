@@ -166,10 +166,54 @@ a {
 .header2-content {
   background-color: #0B1942;
   margin: auto;
-  height: 24vw;
+  height: 60vw;
   width: 71vw;
   list-style: none;
   text-decoration: none;
+}
+
+.mainpost-heading {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2.2vw;
+  font-weight: lighter;
+  background-color: #0B1942;
+  margin: auto;
+  color: #FFFFFF;
+  padding-left: 2vw;
+  padding-top: 1.3vw;
+  padding-bottom: 1.8vw;
+}
+
+.title-box-item {
+  background-color: #E2E2E2;
+  height: 23vw;
+  width: 33vw;
+  margin-left: 1.4vw;
+}
+
+.title-img {
+  background-image: url('../images/rashomon-poster.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*float: left;*/
+  /*margin-top: 5vw;*/
+  height: 15vw;
+  width: 20vw;
+}
+
+.posterbox-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2.2vw;
+  font-weight: lighter;
+  margin-left: 10vw;
+}
+
+.posterbox-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2.2vw;
+  font-weight: lighter;
+  margin-left: 10vw;
 }
 
 
