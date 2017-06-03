@@ -166,7 +166,7 @@ a {
 .header2-content {
   background-color: #0B1942;
   margin: auto;
-  height: 60vw;
+  height: 62vw;
   width: 71vw;
   list-style: none;
   text-decoration: none;
@@ -242,6 +242,81 @@ a {
   font-weight: lighter;
   list-style-type: circle;
 }
+
+.poster-container {
+  background-color: #E2E2E2;
+  margin-top: -23vw;
+  margin-right: 1vw;
+  height: 55vw;
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: right;
+}
+
+.poster-boxes {
+  height: 23vw;
+  width: 16.5vw;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3vw;
+  font-weight: lighter;
+}
+
+.poster-boxes p {
+  margin-left: 1vw;
+}
+
+.entrypost-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3vw;
+  font-weight: lighter;
+  text-decoration: underline;
+  color: #00B7D3;
+  margin-left: 1vw;
+}
+
+.post-img1 {
+  background-image: url('../images/great-train-poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 21vw;
+  width: 26vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
+.post-img2 {
+  background-image: url('../images/nosferatu-poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 21vw;
+  width: 26vw;
+  margin-top: -3vw;
+  margin-left: 1vw;
+}
+
+.post-img3 {
+  background-image: url('../images/bicycle-thief-poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 21vw;
+  width: 26vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
+.post-img4 {
+  background-image: url('../images/metropolis-poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 21vw;
+  width: 26vw;
+  margin-top: -3vw;
+  margin-left: 1vw;
+}
+
 
 
 /*Footer*/
