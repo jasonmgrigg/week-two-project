@@ -48,7 +48,7 @@ a {
 }
 
 
-.nav-bar {
+nav ul {
   margin: auto;
   height: 8vw;
   width: 71vw;
@@ -69,12 +69,6 @@ a {
   width: 7vw;
   }
 
-.page-header {
-  margin: auto;
-  background-color: white;
-  margin: auto;
-  width: 71vw;
-}
 
 
 /*Below for Nav Bar and Footer*/
@@ -255,7 +249,7 @@ a {
   height: 55vw;
   width: 33vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   float: right;
@@ -294,17 +288,17 @@ a {
 }
 
 .post-img2 {
-  background-image: url('../images/nosferatu-poster.jpg');
+  background-image: url('../images/bicycle-thief-poster.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   height: 21vw;
   width: 26vw;
-  margin-top: -1vw;
+  margin-top: -2vw;
   margin-left: 1vw;
 }
 
 .post-img3 {
-  background-image: url('../images/bicycle-thief-poster.jpg');
+  background-image: url('../images/nosferatu-poster.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   height: 21vw;
@@ -319,13 +313,13 @@ a {
   background-repeat: no-repeat;
   height: 21vw;
   width: 26vw;
-  margin-top: -1vw;
+  margin-top: -2vw;
   margin-left: 1vw;
 }
 
 /*Footer*/
 
-.nav-bar p {
+nav p {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -335,18 +329,11 @@ a {
   padding-right: 1.5vw;
 }
 
-@media screen and (min-width: 769px)
-{
 
-}
 
 @media only screen and (max-width: 768px) and (min-width: 545px) {
 
-.nav-bar {
-  width: 48vw;
-}
-
-.page-header {
+nav ul {
   width: 48vw;
 }
 
@@ -408,7 +395,6 @@ a {
 .poster-container {
   display: flex;
   flex-direction: row;
-  /*flex-wrap: wrap;*/
   justify-content: space-between;
   align-items: center;
   width: 45vw;
@@ -455,5 +441,107 @@ a {
 }
 
 @media only screen and (max-width: 544px) and (min-width: 0px) {
+
+  header nav ul {
+    height: 9vw;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: none;
+    margin-left: 32.5vw;
+  }
+
+  .logo-container {
+    background: url('../images/filmclub.png');
+    background-position: center;
+    background-color: #F5005B;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 2vw;
+    height: 15vw;
+    width: 10vw;
+    }
+
+    .nav-item1 {
+      height: 3vw;
+      width: 25vw;
+    }
+
+    .nav-item2 {
+      height: 3vw;
+      width: 25vw;
+    }
+
+    .nav-item3 {
+      height: 3vw;
+      width: 25vw;
+    }
+
+    .header-content {
+      margin: auto;
+      width: 35vw;
+      height: 35vw;
+    }
+
+    .header2-content {
+      height: 95vw;
+      width: 35vw;
+    }
+
+    .title-box-item {
+      margin-left: 1vw;
+    }
+
+    .poster-container {
+      margin-top: 4vw;
+      margin-right: 1vw;
+    }
+
+    .picture-boxes {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: auto;
+    }
+
+    .slide-img {
+      width: 32vw;
+    }
+
+    .entry-title {
+      font-size: 1.5vw;
+    }
+
+
+
+
+    footer nav ul {
+      margin: auto;
+      width: 35vw;
+      height: 15vw;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    nav p {
+      margin: auto;
+    }
+
+    footer nav .nav-item1 {
+      width: 35vw;
+    }
+
+    footer nav .nav-item2 {
+      width: 35vw;
+    }
+
+    footer nav .nav-item3 {
+      width: 35vw;
+    }
+
 
 }
