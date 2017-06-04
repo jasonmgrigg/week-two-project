@@ -70,6 +70,7 @@ a {
   }
 
 .page-header {
+  margin: auto;
   background-color: white;
   margin: auto;
   width: 71vw;
@@ -131,16 +132,19 @@ a {
   padding-left: 1.7vw;
   padding-top: 1.7vw;
   padding-bottom: 1vw;
+  margin: auto;
 }
 
 .picture-boxes {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: auto;
 }
 
 .slide-img {
   width: 20vw;
+  margin: auto;
 }
 
 .entry-title {
@@ -159,6 +163,7 @@ a {
   font-family: 'PT Sans', sans-serif;
   font-size: 1.3vw;
   padding-top: 1vw;
+  margin: auto;
 }
 
 /*Second Section*/
@@ -246,7 +251,7 @@ a {
 .poster-container {
   background-color: #E2E2E2;
   margin-top: -23vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   height: 55vw;
   width: 33vw;
   display: flex;
@@ -257,11 +262,12 @@ a {
 }
 
 .poster-boxes {
-  height: 23vw;
+  height: 21vw;
   width: 16.5vw;
   font-family: 'PT Sans', sans-serif;
   font-size: 1.3vw;
   font-weight: lighter;
+  margin: auto;
 }
 
 .poster-boxes p {
@@ -283,7 +289,7 @@ a {
   background-repeat: no-repeat;
   height: 21vw;
   width: 26vw;
-  margin-top: 1vw;
+  margin-top: -2vw;
   margin-left: 1vw;
 }
 
@@ -293,7 +299,7 @@ a {
   background-repeat: no-repeat;
   height: 21vw;
   width: 26vw;
-  margin-top: -3vw;
+  margin-top: -1vw;
   margin-left: 1vw;
 }
 
@@ -303,7 +309,7 @@ a {
   background-repeat: no-repeat;
   height: 21vw;
   width: 26vw;
-  margin-top: 1vw;
+  margin-top: -2vw;
   margin-left: 1vw;
 }
 
@@ -313,7 +319,7 @@ a {
   background-repeat: no-repeat;
   height: 21vw;
   width: 26vw;
-  margin-top: -3vw;
+  margin-top: -1vw;
   margin-left: 1vw;
 }
 
@@ -335,5 +341,119 @@ a {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 545px) {
+
+.nav-bar {
+  width: 48vw;
+}
+
+.page-header {
+  width: 48vw;
+}
+
+.header-content {
+  width: 48vw;
+  height: 30vw;
+}
+
+.slide-img {
+  width: 12vw;
+}
+
+.entry-title {
+  font-size: 1.5vw;
+}
+
+.header2-content {
+  width: 48vw;
+}
+
+.title-box-item {
+  width: 45vw;
+  height: 30vw;
+}
+
+.title-img {
+  height: 28vw;
+  width: 35vw;
+}
+
+.poster-container {
+  margin: auto;
+}
+
+.posterbox-title {
+  margin-left: 5vw;
+  margin-top: -27vw;
+}
+
+.posterbox-text {
+  padding-left: 21vw;
+  padding-top: .4vw;
+}
+
+.list-title {
+  margin-top: 2vw;
+  margin-left: 21vw;
+  margin-right: 1vw;
+  padding-top: 1.1vw;
+  border-top-style: solid;
+  border-top-width: thin;
+}
+
+.discussion-list {
+  padding-left: 23vw;
+  padding-top: 1vw;
+}
+
+.poster-container {
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  justify-content: space-between;
+  align-items: center;
+  width: 45vw;
+  height: 22vw;
+  margin-right: 1.6vw;
+  margin-top: 1.5vw;
+}
+
+.poster-boxes {
+  height: 12vw;
+  width: 10vw;
+  margin-top: 0vw;
+  margin-left: 0vw;
+}
+
+
+.post-img1 {
+  height: 14vw;
+  width: 14vw;
+  margin-top: 1vw;
+}
+
+.post-img2 {
+  height: 14vw;
+  width: 14vw;
+  margin-top: 1vw;
+}
+
+.post-img3 {
+  height: 14vw;
+  width: 14vw;
+  margin-top: 1vw;
+}
+
+.post-img4 {
+  height: 14vw;
+  width: 14vw;
+  margin-top: -2vw;
+  margin-top: 1vw;
+}
+
+
+
+}
+
+@media only screen and (max-width: 544px) and (min-width: 0px) {
 
 }
