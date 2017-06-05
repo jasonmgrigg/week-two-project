@@ -39,7 +39,9 @@ Colors*/
 
 @media only screen and (max-width: 544px) and (min-width: 0px) {
 
-
+body {
+  background-color: black;
+}
 
 a {
   text-decoration: none;
@@ -47,25 +49,25 @@ a {
 }
 
 header nav ul {
-  height: 9vw;
-  width: 25vw;
+  height: 24vw;
+  width: 79vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
   background-color: none;
-  margin-left: 32.5vw;
 }
 
 nav ul {
   margin: auto;
-  height: 8vw;
-  width: 71vw;
+  height: 40vw;
+  width: 79vw;
   background-color: #7DDFE8;
   list-style: none;
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .logo-container {
@@ -75,39 +77,39 @@ nav ul {
   background-size: 75%;
   background-repeat: no-repeat;
   padding-bottom: 2vw;
-  height: 15vw;
-  width: 10vw;
+  height: 25vw;
+  width: 25vw;
   }
 
 
   .nav-item1 {
-    height: 3vw;
-    width: 25vw;
+    height: 8vw;
+    width: 54vw;
     background-color: #00A5BF;
     font-family: 'PT Sans', sans-serif;
-    font-size: 1.3vw;
+    font-size: 3vw;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .nav-item2 {
-    height: 3vw;
-    width: 25vw;
+    height: 8vw;
+    width: 54vw;
     background-color: #00B7D3;
     font-family: 'PT Sans', sans-serif;
-    font-size: 1.3vw;
+    font-size: 3vw;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .nav-item3 {
-    height: 3vw;
-    width: 25vw;
+    height: 8vw;
+    width: 54vw;
     background-color: #00D5E7;
     font-family: 'PT Sans', sans-serif;
-    font-size: 1.3vw;
+    font-size: 3vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,41 +118,112 @@ nav ul {
   .header-content {
     background-color: white;
     margin: auto;
-    height: 10vw;
-    width: 35vw;
+    height: 16vw;
+    width: 79vw;
     list-style: none;
     text-decoration: none;
   }
 
   .main-heading {
     font-family: 'PT Sans', sans-serif;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: lighter;
-    padding-left: 1.7vw;
-    padding-top: 1.7vw;
-    padding-bottom: 1vw;
+    padding-left: 3vw;
+    padding-top: 5vw;
     margin: auto;
   }
 
   .header2-content {
     background-color: #0B1942;
     margin: auto;
-    height: 95vw;
-    width: 35vw;
+    height: 80vw;
+    width: 79vw;
     list-style: none;
     text-decoration: none;
     color: white;
+  }
+
+  .mainpost-heading {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-left: 3vw;
     font-family: 'PT Sans', sans-serif;
-    font-size: 3vw;
+    font-size: 5.5vw;
     font-weight: lighter;
   }
+
+.calendar-back {
+  display: flex;
+  flex-flow: row;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 79vw;
+  height: 20vw;
+  background-color: #0B1942;
+}
+
+.white-box {
+  margin: .3vw 0 .3vw 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  width: 11vw;
+  height: 11vw;
+}
+
+.pink-box {
+  margin-top: .3vw;
+  margin-bottom: .3vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #F5005B;
+  width: 11vw;
+  height: 11vw;
+}
+
+.blue-box {
+  margin-bottom: .3vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #0B1942;
+  width: 5vw;
+  height: 5vw;
+  font-family: "PT SANS";
+  font-size: 2.5vw;
+  padding-top: 1vw;
+}
+
+.calendar-bottom-row {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #0B1942;
+  width: 79vw;
+  height: 10vw;
+}
+
+.calendar-bottom {
+  margin-top: 26.5vw;
+  margin-left: .3vw;
+
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  width: 11vw;
+  height: 11vw;
+}
 
 
 
   footer nav ul {
     margin: auto;
-    width: 35vw;
-    height: 15vw;
+    width: 79vw;
+    height: 40vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -163,21 +236,20 @@ nav ul {
     align-items: center;
     margin-left: auto;
     font-family: 'PT Sans', sans-serif;
-    font-size: 1.3vw;
+    font-size: 3vw;
     color: white;
-    padding-right: 1.5vw;
   }
 
   footer nav .nav-item1 {
-    width: 35vw;
+    width: 79vw;
   }
 
   footer nav .nav-item2 {
-    width: 35vw;
+    width: 79vw;
   }
 
   footer nav .nav-item3 {
-    width: 35vw;
+    width: 79vw;
   }
 
 

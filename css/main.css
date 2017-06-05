@@ -443,14 +443,13 @@ nav ul {
 @media only screen and (max-width: 544px) and (min-width: 0px) {
 
   header nav ul {
-    height: 9vw;
-    width: 25vw;
+    height: 24vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     background-color: none;
-    margin-left: 32.5vw;
   }
 
   .logo-container {
@@ -460,34 +459,37 @@ nav ul {
     background-size: 75%;
     background-repeat: no-repeat;
     padding-bottom: 2vw;
-    height: 15vw;
-    width: 10vw;
+    height: 25vw;
+    width: 25vw;
     }
 
     .nav-item1 {
-      height: 3vw;
-      width: 25vw;
+      height: 8vw;
+      width: 55vw;
+      font-size: 3vw;
     }
 
     .nav-item2 {
-      height: 3vw;
-      width: 25vw;
+      height: 8vw;
+      width: 55vw;
+      font-size: 3vw;
     }
 
     .nav-item3 {
-      height: 3vw;
-      width: 25vw;
+      height: 8vw;
+      width: 55vw;
+      font-size: 3vw;
     }
 
     .header-content {
       margin: auto;
-      width: 35vw;
+      width: 80vw;
       height: 35vw;
     }
 
     .header2-content {
-      height: 95vw;
-      width: 35vw;
+      height: 80vw;
+      width: 80vw;
     }
 
     .title-box-item {
@@ -512,6 +514,7 @@ nav ul {
 
     .entry-title {
       font-size: 1.5vw;
+      width: 80vw;
     }
 
 
