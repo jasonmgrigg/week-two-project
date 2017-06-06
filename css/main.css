@@ -333,118 +333,202 @@ nav p {
 
 @media only screen and (max-width: 768px) and (min-width: 545px) {
 
-nav ul {
-  width: 48vw;
-}
 
-.header-content {
-  width: 48vw;
-  height: 30vw;
-}
+  nav ul {
+    margin: auto;
+    height: 15vw;
+    width: 90vw;
+    background-color: #7DDFE8;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 
-.slide-img {
-  width: 12vw;
-}
-
-.entry-title {
-  font-size: 1.5vw;
-}
-
-.header2-content {
-  width: 48vw;
-}
-
-.title-box-item {
-  width: 45vw;
-  height: 30vw;
-}
-
-.title-img {
-  height: 28vw;
-  width: 35vw;
-}
-
-.poster-container {
-  margin: auto;
-}
-
-.posterbox-title {
-  margin-left: 5vw;
-  margin-top: -27vw;
-}
-
-.posterbox-text {
-  padding-left: 21vw;
-  padding-top: .4vw;
-}
-
-.list-title {
-  margin-top: 2vw;
-  margin-left: 21vw;
-  margin-right: 1vw;
-  padding-top: 1.1vw;
-  border-top-style: solid;
-  border-top-width: thin;
-}
-
-.discussion-list {
-  padding-left: 23vw;
-  padding-top: 1vw;
-}
-
-.poster-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 45vw;
-  height: 22vw;
-  margin-right: 1.6vw;
-  margin-top: 1.5vw;
-}
-
-.poster-boxes {
-  height: 12vw;
-  width: 10vw;
-  margin-top: 0vw;
-  margin-left: 0vw;
-}
+  .logo-container {
+    background: url('../images/filmclub.png');
+    background-position: center;
+    background-color: #F5005B;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 2vw;
+    height: 15vw;
+    width: 15vw;
+    }
 
 
-.post-img1 {
-  height: 14vw;
-  width: 14vw;
-  margin-top: 1vw;
-}
+    .nav-item1 {
+      height: 15vw;
+      width: 15vw;
+      background-color: #00A5BF;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 3vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-.post-img2 {
-  height: 14vw;
-  width: 14vw;
-  margin-top: 1vw;
-}
+    .nav-item2 {
+      height: 15vw;
+      width: 15vw;
+      background-color: #00B7D3;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 3vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-.post-img3 {
-  height: 14vw;
-  width: 14vw;
-  margin-top: 1vw;
-}
+    .nav-item3 {
+      height: 15vw;
+      width: 15vw;
+      background-color: #00D5E7;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 3vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-.post-img4 {
-  height: 14vw;
-  width: 14vw;
-  margin-top: -2vw;
-  margin-top: 1vw;
-}
+    .main-heading {
+      font-size: 5vw;
+      padding-left: 4vw;
+      padding-top: 4vw
+    }
+
+    .header-content {
+      width: 90vw;
+      height: 50vw;
+    }
+
+     .entry-title {
+       font-size: 3vw;
+     }
+
+     .slide-img {
+       width: 25vw;
+     }
+
+     .slide-text {
+       font-size: 2vw;
+       width: 25vw;
+       line-height: 3.5vw;
+     }
+
+     .header2-content {
+       width: 90vw;
+       height: 109vw;
+     }
+
+     .mainpost-heading {
+       font-size: 5vw;
+       padding-left: 4vw;
+       padding-top: 2vw;
+     }
+
+     .title-box-item {
+       width: 87vw;
+       height: 60vw;
+     }
+
+     .poster-container {
+       margin: auto;
+     }
+
+     .posterbox-title {
+       margin-left: 28vw;
+       margin-top: -55vw;
+     }
+
+     .posterbox-title a {
+       font-size: 3vw;
+     }
+
+     .posterbox-text {
+       padding-left: 21vw;
+       font-size: 2.5vw;
+       width: 40vw;
+       margin-left: 23vw;
+     }
+
+     .title-img {
+       height: 58vw;
+       width: 58vw;
+       font-size: 5vw;
+     }
 
 
 
-}
+     .list-title {
+       margin-top: 2vw;
+       margin-left: 44vw;
+       margin-right: 1vw;
+       padding-top: 2vw;
+       border-top-style: solid;
+       border-top-width: thin;
+       font-size: 2.5vw;
+      }
+
+      .discussion-list {
+        padding-left: 46vw;
+        padding-top: 1vw;
+        font-size: 2vw;
+        }
+
+        .poster-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          width: 87vw;
+          height: 36vw;
+          margin-right: 1.6vw;
+          margin-top: 1.5vw;
+          }
+
+          .entrypost-title {
+            font-size: 2vw;
+            padding-top: 1vw;
+          }
+
+        .poster-boxes {
+          margin-left: 1vw;
+          margin-top: 3vw;
+          font-size: 2vw;
+        }
+
+        .post-img1 {
+          height: 25vw;
+          width: 20vw;
+          }
+
+          .post-img2 {
+            height: 25vw;
+            width: 20vw;
+          }
+
+          .post-img3 {
+            height: 25vw;
+            width: 20vw;
+          }
+
+          .post-img4 {
+            height: 25vw;
+            width: 20vw;
+          }
+
+
+
+
+        }
 
 @media only screen and (max-width: 544px) and (min-width: 0px) {
 
   header nav ul {
     height: 24vw;
-    width: 80vw;
+    width: 76vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -459,91 +543,211 @@ nav ul {
     background-size: 75%;
     background-repeat: no-repeat;
     padding-bottom: 2vw;
-    height: 25vw;
-    width: 25vw;
+    height: 24vw;
+    width: 24vw;
     }
 
     .nav-item1 {
       height: 8vw;
-      width: 55vw;
+      width: 52vw;
       font-size: 3vw;
     }
 
     .nav-item2 {
       height: 8vw;
-      width: 55vw;
+      width: 52vw;
       font-size: 3vw;
     }
 
     .nav-item3 {
       height: 8vw;
-      width: 55vw;
+      width: 52vw;
       font-size: 3vw;
     }
 
     .header-content {
       margin: auto;
-      width: 80vw;
-      height: 35vw;
+      height: 85vw;
+      width: 76vw;
     }
 
-    .header2-content {
-      height: 80vw;
-      width: 80vw;
-    }
-
-    .title-box-item {
-      margin-left: 1vw;
-    }
-
-    .poster-container {
-      margin-top: 4vw;
-      margin-right: 1vw;
-    }
 
     .picture-boxes {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      margin: auto;
+      margin-left: -30vw;
     }
 
-    .slide-img {
-      width: 32vw;
+    .slide-text {
+      width: 70vw;
+      font-size: 2.5vw;
+      margin-bottom: 2vw;
+      line-height: 5vw;
+
     }
 
     .entry-title {
-      font-size: 1.5vw;
-      width: 80vw;
+      width: 70vw;
+      font-size: 4vw;
+    }
+
+    .slide-img {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      width: 40vw;
+      height: 20vw;
     }
 
 
+/*Up Next Section*/
 
 
-    footer nav ul {
+    .title-box-item {
+      margin-left: 1vw;
+    }
+
+    .header2-content {
+      height: 145vw;
+      width: 76vw;
+    }
+
+    .mainpost-heading {
+      font-size: 4vw;
+    }
+
+    .title-box-item {
+      width: 73vw;
+      height: 50vw;
       margin: auto;
-      width: 35vw;
-      height: 15vw;
+    }
+
+    .title-img {
+      height: 50vw;
+    }
+
+    .posterbox-title  {
+      margin-left: 18vw;
+      font-size: 4vw;
+      margin-top: -50vw;
+    }
+
+    .posterbox-title a {
+      font-size: 4vw;
+    }
+
+    .posterbox-text {
+      margin-left: 18vw;
+      font-size: 3vw;
+      margin-top: 3vw;
+    }
+
+    .list-title {
+      margin-left: 33vw;
+      margin-right: 8vw;
+      font-size: 3vw;
+    }
+
+    .discussion-list {
+      margin-left: 18vw;
+      margin-top: 3vw;
+      font-size: 3vw;
+
+    }
+
+
+    .poster-container {
+      background-color: #E2E2E2;
+      margin-top: 5vw;
+      margin-right: 2vw;
+      height: 74vw;
+      width: 73vw;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      align-items: center;
+      justify-content: space-between;
     }
 
-    nav p {
+    .poster-boxes {
+      margin-left: 4vw;
+      margin-top: 4vw;
+    }
+
+    .post-img1 {
+      background-image: url('../images/great-train-poster.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 30vw;
+    }
+
+    .post-img2 {
+      background-image: url('../images/bicycle-thief-poster.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 30vw;
+    }
+
+    .post-img3 {
+      background-image: url('../images/nosferatu-poster.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 30vw;
+    }
+
+    .post-img4 {
+      background-image: url('../images/metropolis-poster.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 30vw;
+    }
+
+    .entrypost-title {
+      font-size: 2vw;
+    }
+
+    .poster-boxes p {
+      font-size: 2vw;
+    }
+
+
+
+
+
+    footer nav {
+      width: 76vw;
       margin: auto;
     }
 
+    footer nav ul {
+      margin: auto;
+      width: 76vw;
+      height: 30vw;
+      display: flex;
+      flex-direction: column;
+      /*flex-wrap: wrap;*/
+      align-items: center;
+    }
+
+    footer nav p {
+      margin: auto;
+      height: 24vw;
+      font-size: 2.5vw;
+    }
+
     footer nav .nav-item1 {
-      width: 35vw;
+      width: 76vw;
+      height: 24vw;
     }
 
     footer nav .nav-item2 {
-      width: 35vw;
+      width: 76vw;
+      height: 24vw;
     }
 
     footer nav .nav-item3 {
-      width: 35vw;
+      width: 76vw;
+      height: 24vw;
     }
 
 
