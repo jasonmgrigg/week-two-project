@@ -360,35 +360,40 @@ nav ul {
       padding-top: 2vw;
       padding-left: 4vw;
       margin-top: 2vw;
-      display: inline-block;
+      display: block;
       cursor: pointer;
       font-family: 'PT Sans', sans-serif;
-      font-size: 3vw;
+      font-size: 2vw;
     }
 
     .form-group label {
-      margin-left: 4vw;
-      margin-top: 5vw;
       font-family: 'PT Sans', sans-serif;
-      font-size: 3vw;
+      font-size: 2vw;
     }
 
-    input {
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      margin-left: 50vw;
+      padding-top: 5vw;
+    }
+
+    /*input {
       margin-left: 3vw;
       margin-top: 2vw;
       margin-bottom: 2vw;
-    }
+    }*/
+
+
 
     .form-group input {
-      margin-right: 3vw;
-      margin-left: 3vw;
-      margin-top: 1vw;
-      margin-bottom: 2vw;
       border-style: solid;
       border-width: .1vw;
       color: gray;
-      width: 70vw;
-      height: 5vw;
+      width: 35vw;
+      height: 3vw;
     }
 
     .form-bottom {
@@ -414,32 +419,38 @@ nav ul {
     }
 
     .profile-picture {
-      margin: auto;
+      margin-left: 5vw;
+      margin-bottom: -48vw;
       background: url('../images/profile-placeholder.png');
       background-size: 100%;
       background-repeat: no-repeat;
-      height: 70vw;
-      width: 70vw;
+      height: 40vw;
+      width: 40vw;
       border-radius: 50%;
     }
+
 
     .checkbox-title {
       padding-bottom: 5vw;
       font-family: 'PT Sans', sans-serif;
       font-size: 3vw;
+      margin-top: -10vw;
     }
 
     .checkbox-list {
+      margin-left: 1vw;
+      margin-right: 1vw;
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
       padding-left: 3vw;
-      margin-top: 4vw;
+      margin-top: 30vw;
     }
 
     .checkbox-list label{
       padding-top: 2vw;
       font-family: 'PT Sans', sans-serif;
-      font-size: 3vw;
+      font-size: 2vw;
     }
 
     button {
@@ -454,35 +465,35 @@ nav ul {
     }
 
 
-        footer nav ul {
-          margin: auto;
-          width: 90vw;
-          height: 15vw;
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          align-items: center;
-        }
-
-        nav p {
-          margin: auto;
-          display: flex;
-          align-items: center;
-          margin-left: auto;
-          font-family: 'PT Sans', sans-serif;
-          font-size: 3vw;
-          color: white;
-        }
-
-        footer nav .nav-item1 {
-          width: 15vw;
-        }
-
-        footer nav .nav-item2 {
-          width: 15vw;
-        }
-
-        footer nav .nav-item3 {
-          width: 15vw;
-        }
+    footer nav ul {
+      margin: auto;
+      width: 90vw;
+      height: 15vw;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
       }
+
+    nav p {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 3vw;
+      color: white;
+    }
+
+    footer nav .nav-item1 {
+      width: 15vw;
+      }
+
+    footer nav .nav-item2 {
+      width: 15vw;
+      }
+
+    footer nav .nav-item3 {
+      width: 15vw;
+      }
+    }
