@@ -343,7 +343,7 @@ nav ul {
     .header-content {
       background-color: white;
       margin: auto;
-      height: 300vw;
+      height: 180vw;
       width: 90vw;
     }
 
@@ -380,13 +380,6 @@ nav ul {
       padding-top: 5vw;
     }
 
-    /*input {
-      margin-left: 3vw;
-      margin-top: 2vw;
-      margin-bottom: 2vw;
-    }*/
-
-
 
     .form-group input {
       border-style: solid;
@@ -397,20 +390,26 @@ nav ul {
     }
 
     .form-bottom {
-      margin-top: 4vw;
+      margin-top: 50vw;
+      margin-left: -60vw;
     }
 
     .form-bottom input {
-      margin-right: 5vw;
+      margin-right: 7vw;
       margin-left: -1vw;
-      margin-top: 1vw;
+      margin-top: 10vw;
       margin-bottom: 2vw;
       border-style: solid;
       border-width: .1vw;
       color: gray;
-      width: 75vw;
+      width: 50vw;
       height: 10vw;
     }
+
+    .form-bottom label {
+      margin-right: 5vw;
+    }
+
 
     .checkbox-list input {
       padding-left: 3vw;
@@ -440,17 +439,20 @@ nav ul {
     .checkbox-list {
       margin-left: 1vw;
       margin-right: 1vw;
+      margin-top: 30vw;
+      margin-bottom: 5vw;
+      height: 39vw;
+      width: 40vw;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      padding-left: 3vw;
-      margin-top: 30vw;
+      justify-content: center;
     }
 
     .checkbox-list label{
       padding-top: 2vw;
       font-family: 'PT Sans', sans-serif;
-      font-size: 2vw;
+      font-size: 3vw;
     }
 
     button {
@@ -458,7 +460,7 @@ nav ul {
       font-size: 3vw;
       background-color: #F5005B;
       margin-left: 3vw;
-      margin-top: 3vw;
+      margin-top: 20vw;
       height: 13vw;
       width: 25vw;
       color: white;
@@ -497,3 +499,244 @@ nav ul {
       width: 15vw;
       }
     }
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+
+
+        body {
+          background-color: black;
+        }
+
+        a {
+          text-decoration: none;
+          color: #FFFFFF;
+        }
+
+        header nav ul {
+          height: 10vw;
+          width: 92vw;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          flex-wrap: wrap;
+          background-color: none;
+        }
+
+        nav ul {
+          margin: auto;
+          height: 35vw;
+          width: 92vw;
+          background-color: #7DDFE8;
+          list-style: none;
+          text-decoration: none;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+
+        .logo-container {
+          background: url('../images/filmclub.png');
+          background-position: center;
+          background-color: #F5005B;
+          background-size: 75%;
+          background-repeat: no-repeat;
+          padding-bottom: 2vw;
+          height: 10vw;
+          width: 10vw;
+          }
+
+
+          .nav-item1 {
+            height: 10vw;
+            width: 10vw;
+            background-color: #00A5BF;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 2vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .nav-item2 {
+            height: 10vw;
+            width: 10vw;
+            background-color: #00B7D3;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 2vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .nav-item3 {
+            height: 10vw;
+            width: 10vw;
+            background-color: #00D5E7;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 2vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+        .header-content {
+          background-color: white;
+          margin: auto;
+          height: 100vw;
+          width: 92vw;
+        }
+
+        .header-label {
+          margin: auto;
+          font-family: 'PT Sans', sans-serif;
+          font-size: 5vw;
+          font-weight: lighter;
+          padding-left: 3vw;
+          padding-top: 5vw;
+        }
+
+        .profile-pic-upload {
+          padding-top: 2vw;
+          padding-left: 4vw;
+          margin-top: 2vw;
+          display: block;
+          cursor: pointer;
+          font-family: 'PT Sans', sans-serif;
+          font-size: 2vw;
+        }
+
+        input {
+          margin-bottom: 5vw;
+        }
+
+        .form-group label {
+          font-family: 'PT Sans', sans-serif;
+          font-size: 2vw;
+        }
+
+        .form-group {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: center;
+          margin-left: 50vw;
+          padding-top: 10vw;
+          height: 5vw;
+        }
+
+
+        .form-group input {
+          border-style: solid;
+          border-width: .1vw;
+          color: gray;
+          width: 35vw;
+          height: 3vw;
+        }
+
+        .form-bottom {
+        }
+
+        .form-bottom input {
+          margin-left: 3vw;
+          border-style: solid;
+          border-width: .1vw;
+          color: gray;
+          width: 50vw;
+          height: 5vw;
+        }
+
+        .form-bottom label {
+          margin-right: 5vw;
+        }
+
+
+        .checkbox-list input {
+          padding-left: 1vw;
+          font-family: 'PT Sans', sans-serif;
+          font-size: 1vw;
+        }
+
+        .profile-picture {
+          margin-left: 3vw;
+          margin-bottom: -45vw;
+          background: url('../images/profile-placeholder.png');
+          background-size: 100%;
+          background-repeat: no-repeat;
+          height: 30vw;
+          width: 30vw;
+          border-radius: 50%;
+        }
+
+
+        .checkbox-title {
+          padding-bottom: 5vw;
+          font-family: 'PT Sans', sans-serif;
+          font-size: 2vw;
+          margin-top: -10vw;
+        }
+
+        .checkbox-list {
+          margin-top: 20vw;
+          margin-bottom: 1vw;
+          margin-left: 5vw;
+          height: 10vw;
+          width: 90vw;
+          display: block;
+        }
+
+        .checkbox-list label{
+          padding-top: 2vw;
+          font-family: 'PT Sans', sans-serif;
+          font-size: 1.5vw;
+        }
+
+        button {
+          font-family: 'PT Sans', sans-serif;
+          font-size: 1.5vw;
+          background-color: #F5005B;
+          margin-left: 3vw;
+          margin-top: 20vw;
+          height: 5vw;
+          width: 15vw;
+          color: white;
+        }
+
+
+        footer nav ul {
+          margin: auto;
+          width: 92vw;
+          height: 10vw;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          }
+
+        nav p {
+          margin-right: 2vw;
+          display: flex;
+          align-items;
+          margin-left: auto;
+          font-family: 'PT Sans', sans-serif;
+          font-size: 2vw;
+          color: white;
+        }
+
+        footer nav .nav-item1 {
+          width: 10vw;
+          }
+
+        footer nav .nav-item2 {
+          width: 10vw;
+          }
+
+        footer nav .nav-item3 {
+          width: 10vw;
+          }
+        }
