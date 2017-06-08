@@ -81,7 +81,6 @@ nav ul {
   width: 25vw;
   }
 
-
   .nav-item1 {
     height: 8vw;
     width: 54vw;
@@ -306,13 +305,12 @@ nav ul {
       width: 15vw;
       }
 
-
       .nav-item1 {
         height: 15vw;
         width: 15vw;
         background-color: #00A5BF;
         font-family: 'PT Sans', sans-serif;
-        font-size: 3vw;
+        font-size: 2vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -323,7 +321,7 @@ nav ul {
         width: 15vw;
         background-color: #00B7D3;
         font-family: 'PT Sans', sans-serif;
-        font-size: 3vw;
+        font-size: 2vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -334,7 +332,7 @@ nav ul {
         width: 15vw;
         background-color: #00D5E7;
         font-family: 'PT Sans', sans-serif;
-        font-size: 3vw;
+        font-size: 2vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -366,6 +364,11 @@ nav ul {
       font-size: 2vw;
     }
 
+    .input-botton {
+      margin-left: 2vw;
+      margin-bottom: 3vw;
+    }
+
     .form-group label {
       font-family: 'PT Sans', sans-serif;
       font-size: 2vw;
@@ -380,7 +383,6 @@ nav ul {
       padding-top: 5vw;
     }
 
-
     .form-group input {
       border-style: solid;
       border-width: .1vw;
@@ -391,12 +393,11 @@ nav ul {
 
     .form-bottom {
       margin-top: 50vw;
-      margin-left: -60vw;
+      margin-left: -40vw;
     }
 
     .form-bottom input {
       margin-right: 7vw;
-      margin-left: -1vw;
       margin-top: 10vw;
       margin-bottom: 2vw;
       border-style: solid;
@@ -419,7 +420,7 @@ nav ul {
 
     .profile-picture {
       margin-left: 5vw;
-      margin-bottom: -48vw;
+      margin-bottom: -45vw;
       background: url('../images/profile-placeholder.png');
       background-size: 100%;
       background-repeat: no-repeat;
@@ -428,11 +429,10 @@ nav ul {
       border-radius: 50%;
     }
 
-
     .checkbox-title {
       padding-bottom: 5vw;
       font-family: 'PT Sans', sans-serif;
-      font-size: 3vw;
+      font-size: 2vw;
       margin-top: -10vw;
     }
 
@@ -441,18 +441,20 @@ nav ul {
       margin-right: 1vw;
       margin-top: 30vw;
       margin-bottom: 5vw;
-      height: 39vw;
-      width: 40vw;
+      height: 28vw;
+      width: 50vw;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       justify-content: center;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 2vw;
     }
 
     .checkbox-list label{
       padding-top: 2vw;
       font-family: 'PT Sans', sans-serif;
-      font-size: 3vw;
+      font-size: 2vw;
     }
 
     button {
@@ -465,7 +467,6 @@ nav ul {
       width: 25vw;
       color: white;
     }
-
 
     footer nav ul {
       margin: auto;
@@ -588,7 +589,7 @@ nav ul {
         .header-content {
           background-color: white;
           margin: auto;
-          height: 100vw;
+          height: 140vw;
           width: 92vw;
         }
 
@@ -640,6 +641,8 @@ nav ul {
         }
 
         .form-bottom {
+          margin-top: 60vw;
+          margin-left: -40vw;
         }
 
         .form-bottom input {
@@ -685,9 +688,11 @@ nav ul {
           margin-top: 20vw;
           margin-bottom: 1vw;
           margin-left: 5vw;
-          height: 10vw;
-          width: 90vw;
-          display: block;
+          height: 65vw;
+          width: 60vw;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
         }
 
         .checkbox-list label{

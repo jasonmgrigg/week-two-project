@@ -81,7 +81,6 @@ nav ul {
   width: 25vw;
   }
 
-
   .nav-item1 {
     height: 8vw;
     width: 54vw;
@@ -218,8 +217,6 @@ nav ul {
   height: 11vw;
 }
 
-
-
   footer nav ul {
     margin: auto;
     width: 79vw;
@@ -297,13 +294,12 @@ nav ul {
     width: 15vw;
     }
 
-
     .nav-item1 {
       height: 15vw;
       width: 15vw;
       background-color: #00A5BF;
       font-family: 'PT Sans', sans-serif;
-      font-size: 3vw;
+      font-size: 2vw;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -314,7 +310,7 @@ nav ul {
       width: 15vw;
       background-color: #00B7D3;
       font-family: 'PT Sans', sans-serif;
-      font-size: 3vw;
+      font-size: 2vw;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -325,7 +321,7 @@ nav ul {
       width: 15vw;
       background-color: #00D5E7;
       font-family: 'PT Sans', sans-serif;
-      font-size: 3vw;
+      font-size: 2vw;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -374,7 +370,7 @@ nav ul {
     flex-flow: wrap;
     align-items: center;
     justify-content: space-around;
-    width: 90vw;
+    width: 88vw;
     height: 50vw;
     background-color: #0B1942;
   }
@@ -383,13 +379,12 @@ nav ul {
     display: flex;
     justify-content: flex-start;
     background-color: #0B1942;
-    width: 90vw;
     height: 10vw;
   }
 
-
   .white-box {
-    margin: .3vw 0 .3vw 0;
+    margin-top: .2vw;
+    margin-bottom: .2vw
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -399,8 +394,8 @@ nav ul {
   }
 
   .pink-box {
-    margin-top: .3vw;
-    margin-bottom: .3vw;
+    margin-top: .2vw;
+    margin-bottom: .2vw;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -410,7 +405,7 @@ nav ul {
   }
 
   .blue-box {
-    margin-bottom: .3vw;
+    margin-bottom: .2vw;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -422,11 +417,9 @@ nav ul {
     padding-top: 1vw;
   }
 
-
   .calendar-bottom {
-    margin-top: 1vw;
-    margin-left: .7vw;
-
+    margin-top: .4vw;
+    margin-left: .4vw;
     float: left;
     display: flex;
     justify-content: flex-start;
@@ -435,8 +428,6 @@ nav ul {
     width: 12vw;
     height: 12vw;
   }
-
-
 
     footer nav ul {
       margin: auto;
@@ -519,7 +510,6 @@ nav ul {
       height: 10vw;
       width: 10vw;
       }
-
 
       .nav-item1 {
         height: 10vw;
@@ -610,7 +600,6 @@ nav ul {
       height: 10vw;
     }
 
-
     .white-box {
       margin: .2vw 0 .2vw 0;
       display: flex;
@@ -635,7 +624,6 @@ nav ul {
     .calendar-bottom {
       margin-top: 3.8vw;
       margin-left: .2vw;
-
       float: left;
       display: flex;
       justify-content: flex-start;
@@ -657,11 +645,6 @@ nav ul {
       font-size: 1.5vw;
       padding-top: 1vw;
     }
-
-
-
-
-
 
       footer nav ul {
         margin: auto;
