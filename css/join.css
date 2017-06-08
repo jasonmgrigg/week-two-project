@@ -627,12 +627,21 @@ nav ul {
           margin-bottom: 5vw;
         }
 
+        form {
+          display: flex;
+          flex-direction: column;
+          margin-left: 50vw;
+          margin-bottom: 50vw;
+          width: 20vw;
+          height: 20vw;
+        }
+
         .form-group label {
           font-family: 'PT Sans', sans-serif;
           font-size: 2vw;
         }
 
-        .form-group {
+        /*.form-group {
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
@@ -640,7 +649,7 @@ nav ul {
           margin-left: 50vw;
           padding-top: 10vw;
           height: 5vw;
-        }
+        }*/
 
 
         .form-group input {
